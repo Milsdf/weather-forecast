@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORECAST</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="main-block-forecast">
+            
+            <div class="error">
+                <p>Invalid city name</p>
+              </div>
+
+
+            <div class="header-line">
+                <div class="dark-mod-switcher">
+                    <div class="elips-swither"  id="mode"></div>
+                </div>
+                <div class="dark-mod-switcher-name">Dark Mode</div>
+                <div class="searcher">
+                    <div class="icon-searcher">
+                        <img src="./img/search 1.svg" alt="">
+                    </div>
+                    <input class="line-name-searcher"  type="text" placeholder="Search for your preffered city... ">
+                  
+                </div>
+                <div class="current-location">
+                    <div class="icon-location">
+                        <img src="./img/current location icon.svg" alt="">
+                    </div>
+                    <div class="name-location">Current Location</div>
+                </div>
+            </div>
+
+
+            <div class="block-content">
+
+                <div class="top-part-block-content">
+                    <div class="date-info">
+                        <div class="city-name city">Athens</div>
+                        <div class="time">09:03</div>
+                        <div class="date">Thursday, 31 Aug</div>
+                    </div>
+                    <div class="forecast-info">
+                        <div class="big-tempreture">
+
+                            <div class="main-temprerture temp">24°C</div>
+                            <div class="lettle-tempertrure">Feels like: <div class="fillslike"></div> </div>
+                            <div class="sunrise">
+                                <div class="icon-sunrise">
+                                    <img class="sunrise-white-icon" src="./img/sunrise-white 1.svg" alt="">
+                                </div>
+                                <div class="sunrise-name">
+                                    <div class="sunrise-name-1">Sunrise</div>
+                                    <div class="sunrise-time">06:37 AM</div>
+                                </div>
+                            </div>
+                            <div class="sunset">
+                                <div class="icon-sunset">
+                                    <img src="./img/sunset-white 1.svg" alt="">
+                                </div>
+                                <div class="sunset-name">
+                                    <div class="sunset-name-1">Sunset
+                                    </div>
+                                    <div class="sunset-time">20:37 AM </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="big-sight">
+                            <div class="big-sight-icon">
+                                <img class="weather-imege" src="./img/clear 2.svg" alt="">
+                            </div>
+                            <div class="what-wheather-name">Sunny</div>
+                        </div>
+
+
+
+
+
+                        <div class="wether-icon">
+                            <div class="humidity">
+                                <div class="humidity-icon">
+                                    <img src="./img/humidity 1.svg" alt="">
+                                </div>
+                                <div class="humidity-percent">41%</div>
+                                <div class="humidity-name i">Humidity</div>
+                            </div>
+                            <div class="wind-speed">
+                                <div class="wind-speed-icon">
+                                    <img src="./img/wind 1.svg" alt="">
+                                </div>
+                                <div class="wind-speed-percent">2km/h</div>
+                                <div class="wind-speed-name  i">Wind Speed</div>
+                            </div>
+                            <div class="pressure">
+                                <div class="pressure-icon">
+                                    <img src="./img/pressure-white 1.svg" alt="">
+                                </div>
+                                <div class="pressure-percent">997hPa</div>
+                                <div class="pressure-name i ">Pressure</div>
+                            </div>
+                            <div class="uv">
+                            <div class="uv-icon">
+                                <img src="./img/uv-white 1.svg" alt="">
+                            </div>
+                            <div class="uv-percent"></div>
+                            <div class="uv-name i">Visibility</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lower-part-block-content">
+                    <div class="five-days-forecast">
+                        <div class="name-5days-frcst">5 Days Forecast:</div>
+                        <div class="first-day-frc days-frcst">
+                            <div class="icon-first-day-frc icon-all">
+                                <img src="./img/clear 2.svg" alt="">
+                            </div>
+                            <div class="tempreture-first-day-frc temreture-all">20°C</div>
+                            <div class="date-first-day-frc date-all">Friday, 1 Sep</div>
+                        </div>
+                        <div class="sec-day-frc days-frcst">
+                            <div class="icon-sec-day-frc icon-all">
+                                <img src="./img/clouds 1.svg" alt="">
+                            </div>
+                            <div class="tempreture-sec-day-frc temreture-all">19°C</div>
+                            <div class="date-sec-day-frc date-all">Saturday, 2 Sep</div>
+                        </div>
+                        <div class="th-day-frc days-frcst">
+                            <div class="icon-th-day-frc icon-all">
+                                <img src="./img/drizzle 1.svg" alt="">
+                            </div>
+                            <div class="tempreture-th-day-frc temreture-all">21°C</div>
+                            <div class="date-th-day-frc date-all">Sunday, 3 Sep</div>
+                        </div>
+                        <div class="fo-day-frc days-frcst">
+                            <div class="icon-fo-day-frc icon-all"><img src="./img/rain 1.svg" alt=""></div>
+                            <div class="tempreture-fo-day-frc temreture-all">24°C</div>
+                            <div class="date-fo-day-frc date-all">Monday, 4 Sep</div>
+                        </div>
+                        <div class="fi-day-frc days-frcst">
+                            <div class="icon-fi-day-frc icon-all">
+                                <img src="./img/mist 1.svg" alt="">
+                            </div>
+                            <div class="tempreture-fi-day-frc temreture-all">23°C</div>
+                            <div class="date-fi-day-frc date-all">Tuesday, 5 Sep</div>
+                        </div>
+                    </div>
+                    <div class="hourly-forecast">
+                        <div class="upper-line-hourly-forecasst">Hourly Forecast:</div>
+                        <div class="blocks-five-days">
+                            <div class="first-block-five-days-frc block-five-days-frc">
+                                <div class="time-first-block-five-days-frc time-block">12:00</div>
+                                <div class="icon-first-block-five-days-frc icon-block">
+                                    <img src="./img/clear 2.svg" alt="">
+                                </div>
+                                <div class="tempreture-blocks-five-days timpreture-block">23°C</div>
+                                <div class="cursor-wind-first-block-five-days-frc naviator-block">
+                                    <img src="./img/navigation 1.svg" alt="">
+                                </div>
+                                <div class="speed-first-block-five-days-frc speed-block">6km/h</div>
+                            </div>
+
+                            <div class="second-block-five-days-frc block-five-days-frc">
+                                <div class="time-sec-block-five-days-frc time-block">15:00</div>
+                                <div class="icon-sec-block-five-days-frc icon-block">
+                                    <img src="./img/clouds 1.svg" alt="">
+                                </div>
+                                <div class="tempreture-sec-blocks-five-days timpreture-block">24°C</div>
+                                <div class="cursor-wind-sec-block-five-days-frc  naviator-block">
+                                    <img src="./img/navigation 1.svg" alt="">
+                                </div>
+                                <div class="speed-sec-block-five-days-frc speed-block">3km/h</div>
+                            </div>
+
+                            <div class="the-block-five-days-frc block-five-days-frc">
+                                <div class="time-the-block-five-days-frc time-block">18:00</div>
+                                <div class="icon-the-block-five-days-frc icon-block">
+                                    <img src="./img/clear 2.svg" alt="">
+                                </div>
+                                <div class="tempreture-the-blocks-five-days timpreture-block">26°C</div>
+                                <div class="cursor-wind-the-block-five-days-frc naviator-block">
+                                    <img src="./img/navigation 1.svg" alt="">
+                                </div>
+                                <div class="speed-the-block-five-days-frc speed-block">2km/h</div>
+                            </div>
+
+                            <div class="fo-block-five-days-frc block-five-days-frc">
+                                <div class="time-fo-block-five-days-frc time-block">20:00</div>
+                                <div class="icon-fo-block-five-days-frc icon-block">
+                                    <img src="./img/drizzle 1.svg" alt="">
+                                </div>
+                                <div class="tempreture-fo-blocks-five-days timpreture-block">23°C</div>
+                                <div class="cursor-wind-fo-block-five-days-frc naviator-block">
+                                    <img src="./img/navigation 1.svg" alt="">
+                                </div>
+                                <div class="speed-fo-block-five-days-frc speed-block">2km/h</div>
+                            </div>
+
+                            <div class="fi-block-five-days-frc block-five-days-frc">
+                                <div class="time-fi-block-five-days-frc time-block">22:00</div>
+                                <div class="icon-fi-block-five-days-frc icon-block">
+                                    <img src="./img/clear 2.svg" alt="">
+                                </div>
+                                <div class="tempreture-fi-blocks-five-days timpreture-block">23°C</div>
+                                <div class="cursor-wind-fi-block-five-days-frc naviator-block">
+                                    <img src="./img/navigation 1.svg" alt="">
+                                </div>
+                                <div class="speed-fi-block-five-days-frc speed-block">2km/h</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="darkmode.js"></script>
+</body>
+
+</html>
